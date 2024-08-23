@@ -1,5 +1,6 @@
 import Header from "../Components/Header";
 import ListarProdutos from "../Components/ListarProdutos";
+import Footer from "../Components/Footer";
 
 export default function Oferta(){
     const produtos = ListarProdutos();
@@ -14,9 +15,8 @@ export default function Oferta(){
           <p>{produto.preco}</p>
           <p>{produto.banda}/{produto.lancamento}</p>
         </div>
-))} 
+))}  
+        <Footer/>
         </>
-       
-        
     );
 }

@@ -2,7 +2,7 @@ import Header from "../Components/Header";
 import ListarProdutos from "../Components/ListarProdutos";
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-
+import Footer from "../Components/Footer";
 
 export default function Home(){
   const produtos = ListarProdutos();
@@ -37,6 +37,7 @@ export default function Home(){
 
       </div>
 ))} 
+      <Footer/>
       </>
      
       
