@@ -4,7 +4,7 @@ import Home from './Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Produto from './Produto'
 import Oferta from './Oferta'
-import './globals.css'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
@@ -16,4 +16,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
 
   </React.StrictMode>,
-)
+  )

@@ -37,5 +37,7 @@ export default function ListarProdutos(){
     const criarLista = (objeto) => {
         setDiscos([...ListaDiscos, objeto])
     }
+    return ListaProdutos;
+    
 
 }
